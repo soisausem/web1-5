@@ -32,6 +32,6 @@ public class CarController : MonoBehaviour {
         }
 
         transform.Translate(this.speed, 0, 0);
-        this.speed *= 0.98f;
+        this.speed *= 0.975f;
 	}
 }
